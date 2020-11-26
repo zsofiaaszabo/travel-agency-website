@@ -1,0 +1,268 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+html, body {
+    max-width: 100%;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+
+.first {
+	position: relative;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("./img/1.5x/bg_shad.jpg");
+	height:200vh;
+
+}
+.bts {
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	margin: 10px;
+}
+.background-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	height: 100vh;
+	width: 100%;
+}
+
+.img-container {
+	position:relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	top: 175px;
+}
+
+.btsdiv {
+	display: inline-block;
+	width: 69px;
+	height: 30px;
+}
+
+.bts {
+	fill: #fff;
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bts2 {
+	fill: red;
+}
+
+.logo {
+	width: 273px;
+	height: 273px;
+
+}
+
+.paragraph1 {
+	display: inline-block;
+	font-size: 32px;
+	background-color: red;
+	color: white;
+	padding: 0 10px;
+	margin: 50px 0;
+}
+
+.simg {
+	display: inline-block;
+	width: 290px;
+	height: 50px;
+}
+.second svg {
+	width: 138px;
+	height: 61px;
+	position: absolute;
+    top: 15px;
+    left: 12%;
+}
+.second {
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	top: 250px;
+	width: 100%;
+}
+p {
+	width: 50%;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 300;
+	margin: 0 auto;
+	
+}
+ .bw::first-letter {
+	color: red;
+	font-weight: 900;
+	font-size: 106px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 371%;
+    padding: 24px 3px 6px 3px;
+  margin-right: 6px;
+  float: left;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+.paragraph2 {
+	font-size: 48px;
+}
+.shrimps {
+	width: 100%;
+	position: relative;
+}
+.pictext {
+	margin: 20px;
+	font-size: 22px;
+	display: inline;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+.third {
+	position: relative;
+}
+.paragraph2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 700px;
+	margin: 0 auto;
+	color: red;
+}
+.text1 {
+	position: relative;
+	top:70px;
+	height: 150vh;
+
+}
+.maintext {
+width: 700px;
+
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 300;
+	margin: 0 auto;
+	position: absolute;
+  top: 20%;
+  left: 25%;
+
+}
+.little_image {
+	width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	margin: 0 auto;
+	position: relative;
+}
+.little_image img{
+	padding: 40px;
+}
+.last_text {
+	position: relative;
+	height: 130vh;
+}
+.fourth {
+	position: relative;
+	width: 100%;
+}
+
+.pictext2 {
+margin: 20px;
+font-size: 22px;
+display: inline;
+width: 100%;
+position: absolute;
+top: 100%;
+left: 0;
+}
+@media screen and (max-width: 1000px) {
+	.maintext, p {
+	  width:500px;
+	  margin: 0 auto;
+	}
+	.little_image,.pictext, .pictext2, svg  {
+		display: none;
+	}
+	.last_text {
+		height: 170vh;
+	}
+	
+	
+  }
+  @media screen and (max-width: 750px) {
+	.maintext, p, h2,  {
+		width:200px;
+		margin: 0 auto;
+		font-size: 20px;
+	  }
+	  .little_image,.pictext, .pictext2, svg, img {
+		  display: none;
+	  } 
+	
+.last_text {
+	position: relative;
+	width: 100%;
+}
+
+
+.maintext {
+	margin: 0 auto;
+}
+
+  }
+
+  @media screen and (max-width: 750px) {
+	   .maintext, p {
+		  width:300px;
+		  margin:0 auto;
+
+	  }
+	.text1 {
+		  height: 70vh;
+		  position: relative;
+		  top: 0;
+	  }
+	 
+	  .maintext1 {
+		position: absolute;
+	top: 70%;
+	margin: 0 auto;
+}
+.maintext2 {
+	position: absolute;
+    top: 120%;
+    margin: 0 auto;
+}
+.paragraph2 {
+	width: 590px;
+	padding: 10px 0;
+}
+	  }
+
+  
